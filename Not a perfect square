@@ -1,0 +1,40 @@
+This one appeared in IMO 1986
+
+Let d be any positive integer not equal to 2,5 or 13. Show that one can find distinct a,b in the set 2,5,13, d
+such that ab - 1 is a perfect square.
+
+Solution
+
+S = { 2,5,13,d} but d =/= 2,5,13
+
+Now if ab-1 is a square then p^2 = ab-1
+=> p^2 + 1 = ab
+We look at combinations 2X5 = 10 and 9 + 1 = 10
+Also 8^2 + 1 = 65 = 5 X 13 ( or vice versa )
+
+5^2 + 1 = 26 = 13 X 2 
+
+Now lets try combinations of each of the numbers with d
+2d, 5d, 13d
+
+=> p^2 + 1 = 2d
+RHS is even so p^2 must be odd, if we choose p = 7 , 7^2 + 1 = 50 = 2 X 25 and d is different from {2,5,13}
+
+Thus we have obtained one value of d 
+
+p^2 + 1 = 5d
+
+So p^2 + 1 must be a multiple of 5 and d is not 5 and so p^2 must end in 4
+
+if p = 12 , 145 = 5 X 29 and d is different from {2,5,13}
+
+Thus the second value of d is obtained
+
+In the third case, 
+
+p^2 + 1 = 13d and so LHS must be a a number divisible by 13
+
+Now 441 + 1 = 442 = 13 X 34 and d is different from {2,5,13}
+
+So in each of the cases we have found a value of d different from existing members of the set.Any multiple of each of these could 
+be tried out to yield further combinations in which case the above conditions hold good.
