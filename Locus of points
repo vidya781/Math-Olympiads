@@ -1,0 +1,20 @@
+This one is from Titu Andreescu's book on Mathematical Challenges ( Problem 6 - chapter 1)
+
+Let ABC be an equilateral Triangle. Find the locus of points P in the plane with the property that PA, PB and PC are 
+the sides of an equilateral Triangle.
+
+Solution:
+
+As we will find out the locus is a circle.We let the equations do the talking.
+
+Here's how.
+Let P(x,y) be a point in the plane. Let A (0, root(3)/2) B ( 1/2,0) and C(-1/2,0)
+Wherein we choose side of the equilateral T to be equal to 1.
+
+If we choose an orientation of the Triangle such that A-C-B in clockwise order and P on the side of C 
+then PB^2 = PA^2 + PC^2
+
+=> (x + 1/2)^2 + y^2 = x^2 + (y - root(3)/2)^2 + (x-1/2)^2 + y^2
+=> 2x = - root(3) y + 3/4 + x^2 + y^2
+=> (x-1)^2 + (y - root(3)/2)^2 = 1^2
+And this is the general formula that represents a circle with Centre ( 1,root(3)/2) and Radius = 1
