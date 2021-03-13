@@ -1,0 +1,13 @@
+This one appeared in PRMO 2019.
+
+Let abc be a 3 digit number with the relation such that c^2 = a^2 + b^2. Note that all of them are non zero digits. 
+What is the largest possible prime factor of abc ?
+
+Solution :
+
+We note that a cannot be 0 and in any case none of the digits can be 0.
+We note that 3,4,5 is a Pythagorean triplet and the above relation holds good as 5^2 = 3^2 + 4^2 and 5^2 = 4^2 + 3^2.
+
+So we propose that the number could be 345 or 435 and 345 = 5 X 69 = 5 X 3 X 23 whereas in 435 = 5 X 87 = 5 X 3 X 29
+
+Hence 29 is the largest prime factor.
