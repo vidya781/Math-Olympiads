@@ -1,0 +1,16 @@
+This one is taken from Gems ( Inter ||| ) from the Mathematics Teacher.
+
+The vertices of a T(ABC) are lattice points ( that is points with integer coordinates ) . Two of its sides
+have lengths which belong to the set { sqrt(19), sqrt(2013), sqrt(2014) }. The maximum possible area of the 
+triangle is ____
+
+Solution :
+
+AB, BC = { sqrt(2013),sqrt(2014) }
+
+Now A(TABC) = (1/2) AB BC sin < B <= (1/2) AB BC sin (Pi/2) = (1/2) AB BC <(1/2) sqrt(2014) sqrt(2014) 
+
+The equality holds when exactly 2 sides have sqrt(2014) and the angle between them is (Pi/2)
+
+hence in this case the correct answer is 1007.
+
