@@ -1,0 +1,21 @@
+This problem appeared in the AMTI-NMTC exam. 
+
+In T(ABC), AD is the median dividing BC into BD and DC ( equal parts ). One has to prove that (AB + AC - BC)/2 < AD.
+
+Solution:
+
+Consider the following diagram T(ABC):
+
+When one draws out the median, that would divide the T into ABD and ADC.
+
+Applying Triangle inequality into ABD, we get AD + BD > AB,
+=> AD + BC/2 > AB
+=> AD > AB - (BC/2)
+
+Applying Triangle inequality into ADC, we get AD + DC > AC
+=> AD > AC - (BC/2)
+
+Adding the 2 inequalities above, we get:
+=> 2AD > AB + AC - BC
+=> AD > (AB + AC - BC)/2
+=> (AB + AC - BC )/2 < AD 
