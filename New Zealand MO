@@ -1,0 +1,33 @@
+The problems that appear here are sample Number Theory problems from the New Zealand Math Olympiad 
+
+Find all pairs of integers n and m, such that 
+
+1/n + 1/m = 1/5
+
+Solution :
+
+( m + n )/ mn = 1 / 5
+=> 5m + 5n = mn
+=> 5n = m(n-5)
+LHS is a multiple of 5, hence RHS should also be.
+So n-5 = 5k or m = 5k for some integer k
+If n-5 = 5k, then n = 5(k+1)
+Following this approach we resubstitute back in the original solution, we get
+5 X 5(k+1) = m(5k + 5 - 5)
+25k(k+1) = m(5k)
+=> 5k(k+1) = mk, 5(k+1) = m
+So m is a multiple of 5
+1/5(k+1) + 1/5(k+1) = 1/5
+Thus 2/k+1 = 1 and hence k = 1
+n = 10, m = 5(k+1) for this value of n and hence m = 5(1+1) = 10
+
+Now for m = 5k, 1/n = 1/5 - 1/5k = 1/5(1-1/k) =(k-1)/5k
+n = 5k/(k-1) We ask for what values of k will n be an integer
+k cannot be 1 in this case. If k = 2, n = 10 and so in this case m = 10
+which is identical to the one previously obtained.
+
+Now for k = 6, n = 5 X 6 / (6-1) = 30/5 = 6
+and m = 30 and lets check 1/6 + 1/30 = 1/5
+Therefore (6,30) and (30,6) are solutions.
+
+Hence (10,10) and (6,30) [ or (30,6)] are the solutions at first glance.
