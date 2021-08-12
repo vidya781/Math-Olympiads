@@ -1,6 +1,7 @@
 This section outlines solutions from the KVPY 2019 SA Math paper
 
-1. (c). For an equilateral T(ABC) having side length a. If R and r are the radii of the circumcircle and the incircle of T(ABC) respectively,
+1. (c). For an equilateral T(ABC) having side length a. If R and r are the radii of the circumcircle and the incircle 
+of T(ABC) respectively,
 then 
       R = (a/2) sec 30 = (a/2)(2/ sqrt(3)) = a/ sqrt(3)
       r = (a/2) tan 30 = (a/2) ( 1/ sqrt(3))
@@ -16,4 +17,111 @@ then
      => b^2 - 3b + 2 > 0
      => (b-2)(b-1) > 0
      b is in (-inf, 0) U (2,inf) mean if b in (-inf, 1) U (2,inf) then b ^2 - 3b > -2
+     
+3. (b) Let the given quadratic polynomial p(x) = x^2 + ax + b has two distinct real roots A and B then
+      p(x) = x^2 + ax + b = (x-A)(x-B) and since g(x) = p(x^3) = (x^3-A)(x^3-B) let A = A1^3 and B = B1^3
+      then g(x) = (x^3-A1^3)(x^3-B1^3) = (x-A1)(x-B1)(x^2+A1x+A1^2)(x^2+B1x+B1^2)
+      Therefore the discriminant of quadratic equations x^2 + A1x + A1^2 and x^2 + B1x + B1^2 are negative.
+      Therefore g(x) has exactly two distinct real roots and since g(x) = x^6 + ax^3 + b is an even degree polynomial,
+      so there exists a real number A such that g(x) >= A for all real x
+      
+4. (a) The sum of first n ( n >=1) terms of AP with first term 2 and common difference 4 is
+S(n) n/2 [ 4 + (n-1)4] = 2n^2
+So the average of teh first n terms M(n) = S(n)/n = 2n
+Now Sig m(n) ( n from 1 to 10) = 2 Sigma (n) ( from 1 to 10) = 2 X ( 10 X 11 )/ 2 = 110
+
+5. (a) It is given that in T(ABC) < BAC = 90, AD is the altitude from A to BC
+Since AB = 15 and BC = 25
+Therefore AC = sqrt(BC^2-AB^2) = sqrt(625-225) = 20
+Now since area of T(ABC) = 1/2 (BC)(AD) = (1/2) X 15 X 20 
+=> 25 X AD = 300
+=> AD = 12
+AEDF is a rectangle, EF = AD = 12
+
+6. (b) It is given that the sides of triangle, a, b and c satisfy the following relations
+        c^2 = 2ab. (1)
+        a^2 + c^2 = 3b^2 (2)
+        From equations (1) and (2), we get a^2 + 2ab = 3b^2
+        => a^2 + 2ab + b^2 = 4b^2
+        => (a+b)^2 = (2b)^2 = (b + b)^2
+        => a = b and c = sqrt(2).a
+        Therefore < A = < B = 45
+        
+7. (a) As N be the least positive integer and when a non-zero digit C is written after the last digit of N, the resulting 
+       number is divisible by C. So 10N + C is divisible by C. Therefore 10N must be divisible by C
+       Now, the least integer (N) which is divisible by digit C ( 1 to 9 ) must be the LCM of {1,3,4,6,7,9} = LCM of {4,7,9}
+       = 252 = N
+       and the sum of digits of number 'N' is 2 + 5 + 2 = 9
+       
+8. (c) Let the given 11 distinct positive integers are in increasing order
+    x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11 and so x11 is the largest of these integers and the median is x6
+    Now the median of first 10 numbers is ( x6 + x6 ) / 2 = m ( say)
+    Now, we have to replace the largest number x11 by m and then increasing order will be:
+    x1,x2,x3,x4,x5,m,x6,x7,x8,x9,x10 Therefore m < x6 as x5 < (x5 + x6)/2 < x6 and so the median decreases.
+    
+9. (a) Let the equation of a cubic polynomial 
+       P(x) = aX^3 + bx^2 + cx + d
+       Now, P(1) = a + b + c + d = 2 --(1)
+       P(2) = 8a + 4b + 2c + d = 4 --(2)
+       P(3) = 27a + 9b + 3c + d = 6 --(3)
+       P(4) = 64a + 16b + 4c + d = 8 ---(4)
+       From eqs (1) and (2) we get 7a + 3b + c = 2 --(5)
+       From eqs (2) and (3) we get 19a + 5b + c = 2 --(6)
+       From eqs (3) and (4) we get 37a + 7b + c = 2 --(7)
+       Now from Eqs (5) and (6) we get
+       12a + 2b = 0 --(8)
+       and from Eqs (6) and (7) , 18a + 2b = 0 --(9)
+       From Equations (8) and (9) we get a = 0 and b = 0, c = 2 and d = 0
+       So, P(x) = 2x
+       Therefore no cubic polynomial is possible.
+       
+10. (d) Since in the group of first 10 two digit number 10-19, has atleast 1 prime number similarly in other groups of
+        10 two digit numbers
+        20-29,30-39,40-49,50-59,60-69,70-79,80-89 and 90-99 have almost 1 prime numbers.
+        So, the number of almost prime two-digit number is 90.
+        
+11. (c). Let a convex quadrilateral ABCD and K,L,M,N be the mid point of AB, BC, CD, DA respectively.
+        Now as area T(AKP) = area T(BKP) = x(let) 
+        Similarly, T(BLP) = T(CLP) = y
+        T(CPM) = T(DPM) = z, T(DNP) = T(ANP) = w
+        It is given that A (PKAN) = x + w = 25
+        A(PLBK) = x + y = 36
+        A(PLCM) = y + z = (x + y) + (z + w) -(x + w) 
+                = A(PLBK) + A(PMDN) - A(PKAN) = 36 + 41 - 25 = 77 - 25 = 52
+               
+12. (c) Given equations 
+        6x + 4y + z = 200 -- (1)
+        x + y + z = 100 ---(2)
+        By (1) and (2), we get 5x + 3y = 100 and for non negative integer solutions when
+        x = 2 then y = 30, x = 5 then y = 30, x = 5 then y = 25, x = 8 then y = 20
+        x = 11, then y = 15, x = 14 then y = 10, x = 17 then y = 5 and x= 20 then y = 0
+        In every case, z = 100 - (x + y) > 0 and so total number of non negative integral solutions are 7.
+        
+13. (d) It is given that N2 = 165 = 3 X 5 X 11 and N1 = 2^55 + 1
+         As we know, if n is odd integer then x^n + y^n is divisible by x + y
+         So, N1 = 2^55 + 1^55 is divisible by 2 + 1 = 3
+         and N1 = 2^55 + 1^55 = (2^5)11 + (1^5)11 is divisble by 32 + 1 = 33
+         Therefore the HCF pf N1 and N2 is 33.
+         
+14. (a). It is given that circumferance of Circle C is l and the perimeter of T is l
+         Now let the radius of Circle C is r, so 2Pi r = l => r = l/2Pi
+         Area of Circle C is A1 = Pi r^2 = l^2/4Pi
+          Now as we know, the area of T will be maximum for a given perimeter if it is an equilateral T
+          Let the length of side of equialteral T is a, then 3a = l => a = l/3
+          Area of equilateral T is A2 = sqrt(3)/4 . a^2
+          A2 = sqrt(3)/4 ( l^2/9) = l^2/12 sqrt(3)
+          Therefore A1/A2 = l^2/4Pi/l^2/12 sqrt(3)= 3 sqrt(3)/ Pi > 1
+          Since as we took an equilateral T which has maximum area. But we can also take the Triangle T 
+          such that the ratio area(C)/area(T) is greater tan any positive real number A.
+          
+15. (b). It is given that the number of 3 digit number abc, such that ( b+ c )/2 = bc --(1) the above relation is 
+         true of b = c = 0 and if neither b nor c is 0, then 1/b + 1/c = 2 and b,c in {1,2,3,4,5,6,7,8,9}
+         Then b = c = 1
+         and a in {1,2,3,4,5,6,7,8,9}
+         And so, total number of such three digit numbers are 2 X 9 = 18.
+         
+  These solutions are adapted from KVPY 11 years solved papers by L.Prasad et al.
+        
+        
+        
      
