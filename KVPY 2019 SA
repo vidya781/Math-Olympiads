@@ -1,0 +1,19 @@
+This section outlines solutions from the KVPY 2019 SA Math paper
+
+1. (c). For an equilateral T(ABC) having side length a. If R and r are the radii of the circumcircle and the incircle of T(ABC) respectively,
+then 
+      R = (a/2) sec 30 = (a/2)(2/ sqrt(3)) = a/ sqrt(3)
+      r = (a/2) tan 30 = (a/2) ( 1/ sqrt(3))
+      Therefore R/r = a/Sqrt(3) / a/2 sqrt(3) = 2 which is independent of a and it is a constant.
+      
+2. (c) Given quadratic equation : 2x^2 + bx + 1/b = 0 has two distinct roots so D > 0
+    => b^2 - 4(2)(1/b) > 0
+    => b^2 - 8/b > 0 => (b^3 - 8)/b > 0
+    => (b - 2)( b^2 + 2b + 4 ) / b > 0
+    => b is in (-inf,0), U (2,inf)
+    For option (c)
+     b^2 - 3b > -2
+     => b^2 - 3b + 2 > 0
+     => (b-2)(b-1) > 0
+     b is in (-inf, 0) U (2,inf) mean if b in (-inf, 1) U (2,inf) then b ^2 - 3b > -2
+     
